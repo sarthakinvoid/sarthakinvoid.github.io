@@ -21,6 +21,8 @@
       <link rel="stylesheet" href="css/style.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="css/responsive.css">
+      <!-- Animation CSS for headline -->
+      <link rel="stylesheet" href="css/animation.css">
    </head>
    <body>
       <!-- loading -->
@@ -47,23 +49,23 @@
                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ml-auto">
                            <li class="nav-item">
-                              <a class="nav-link " href="index.html">Home</a>
+                              <a class="nav-link " style="color:white" href="index.html">Home</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link active" href="product.html">Product</a>
+                              <a class="nav-link active" style="color:white" href="product.html">Product</a>
                            </li>
                              <li class="nav-item">
-                              <a class="nav-link" href="technology.html">Technology</a>
+                              <a class="nav-link" style="color:white" href="technology.html">Technology</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="features.html">Industry</a>
+                              <a class="nav-link" style="color:white" href="features.html">Industry</a>
                            </li>
                          
                            <li class="nav-item">
-                              <a class="nav-link" href="about-us.html">Company</a>
+                              <a class="nav-link" style="color:white" href="about-us.html">Company</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="contact-us.html">Contact</a>
+                              <a class="nav-link" style="color:white" href="contact-us.html">Contact</a>
                            </li>
                        
                         </ul>
@@ -81,17 +83,33 @@
       </header>
       <!--=================================
          Header -->
-         <div id="banner" class="banner" style="background-image:url('/invoidtest/images/banner/ai2.jpg'); background-color: bisque">
-         <div class="banner-text" style="padding-bottom:30px !important">
+         <div id="banner" class="banner" style="background-image:url('/invoidtest/images/banner/ai2.jpg'); background-color: navy">
+         <div class="banner-text" style="padding-bottom:170px !important">
             <div class="container">
                <div class="row">
-                  <div class="col-lg-5 col-md-12 col-sm-12">
-                     <h1 class="text-uppercase">Things that happen in a minute: </h1>
+                  <div style = "text-align: center " class="col-lg-12 col-md-12 col-sm-12">
+                     <!-- <h1 class="text-uppercase">Things that happen in a minute: </h1>
                      <h3 class="mt-4"> inVOID extracts information from a customer’s ID,
 verifies if it is authentic, checks if the
 customer is real and protects
-millions of cases of fraudulent information.</h3>
-                    
+millions of cases of fraudulent information.</h3> -->
+<h1 class=" cd-headline clip is-full-width" style="z-index:100; font-size:3em;">
+      <span>"I want to verify my</span>
+      <span class="cd-words-wrapper">
+         <b class="is-visible">customers</b>
+         <b>lenders</b>
+         <b>users</b>
+         <b>drivers</b>
+         <b>merchants</b>
+         <b>employees</b>
+         <b>riders</b>
+         <b>borrowers</b>
+         <b>agents</b>
+      </span>
+      <span>"</span>
+      <!-- <span>instantly</span> -->
+   </h1>
+
                   </div>
             
                </div>
@@ -151,7 +169,7 @@ millions of cases of fraudulent information.</h3>
                <div style="margin-top:100px;" class="row align-items-center works-arrow2 m-top">
                   <div class="col-lg-6 col-sm-12 order-lg-2 order-1">
                      <div class="title-box">
-                        <h2 class="title-light text-dark"><span>Take a photo of your ID</span></h2>
+                        <h2 class="title-light text-dark"><span>Take a photo of the ID</span></h2>
                      </div>
                      <p class="mt-4">No glitches, no hassles, and accessible from even the simplest smartphone. In one look, inVOID knows whether the ID is authentic or not. 
 </p>
@@ -373,5 +391,7 @@ millions of cases of fraudulent information.</h3>
       <script src="js/main.js"></script>
       <!-- Custom -->
       <script src="js/custom.js"></script>
+      <!-- Animation for headline -->
+      <script src="js/animation.js"></script>
    </body>
 </html>
