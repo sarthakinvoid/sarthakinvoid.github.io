@@ -27,8 +27,8 @@ Design and Developed by: iqonicthemes.in
 -----------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Heebo:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 /*---------------------------------------------------------------------
 2 import Css
 -----------------------------------------------------------------------*/
@@ -41,13 +41,13 @@ Design and Developed by: iqonicthemes.in
 *::-moz-selection { background: #e69138; color: #ffffff; text-shadow: none; }
 ::-moz-selection { background: #e69138; color: #ffffff; text-shadow: none; }
 ::selection { background: #e69138; color: #ffffff; text-shadow: none; }
-body { font-family: 'Heebo', sans-serif; font-weight: normal; font-style: normal; font-size: 16px; line-height: 2em; color: #444444; }
+body { font-family: 'IBM Plex Sans', sans-serif; font-weight: normal; font-style: normal; font-size: 16px; line-height: 2em; color: #444444; }
 a, .btn, .button { -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #e69138; text-decoration: none !important; }
 a, button { outline: medium none !important; color: orange; }
 .uppercase { text-transform: uppercase; }
-h1, h2, h3, h4, h5, h6 { margin-top: 0px; color: #222222;  font-family: 'Poppins', sans-serif;}
+h1, h2, h3, h4, h5, h6 { margin-top: 0px; color: #222222;  font-family: 'IBM Plex Sans', sans-serif;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 label { font-weight: normal; }
 h1 { font-size: 40px; font-style: normal; line-height: 60px; }
